@@ -11,3 +11,4 @@ cp ./etc/init.d/vncboot /etc/init.d/vncboot
 
 ## NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash
+nvm install 0.10
