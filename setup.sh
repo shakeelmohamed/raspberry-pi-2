@@ -3,6 +3,6 @@
 # Just ask for sudo once
 sudo su
 
-# VNC Server setup
+# VNC Server setup, connect via <ip-address>:1
 apt-get install tightvncserver
 cp ./etc/init.d/vncboot /etc/init.d/vncboot
