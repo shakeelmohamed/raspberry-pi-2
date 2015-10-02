@@ -10,12 +10,13 @@ cp ./etc/init.d/vncboot /etc/init.d/vncboot
 # git
 apt-get install git | yes
 # TODO: pull in dot files, and source the great things in shak.sh
-# git clone git@github.com:shakeelmohamed/dotfiles.git
+git clone git@github.com:shakeelmohamed/dotfiles.git
 
 # Node.js
 ## NVM, abstracts the mess of compiling Node.js from source
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash
 nvm install 0.10
+node use 0.10
 
 # Python
 ## pyenv
