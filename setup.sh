@@ -17,6 +17,7 @@ git clone git@github.com:shakeelmohamed/dotfiles.git
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash
 nvm install 0.10
 nvm use 0.10
+nvm alias default 0.10
 
 # Python
 ## pyenv
